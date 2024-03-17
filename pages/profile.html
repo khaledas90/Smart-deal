@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <!-- css style -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+       <!-- font icon -->
+       <link rel="stylesheet" href="../css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- google font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;800&family=Pacifico&family=Rubik:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+<!-- icon -->
+<link rel="shortcut icon" href="../img/logo.png" />
+</head>
+<body>
+ <!-- header -->
+    <header class="header">
+        <div class="header-container">
+            <nav class="navbar nav-board">
+               
+                <ul class="navbar-links" id="navbarLinks">
+                    <li class="nav-item main-board">
+                        <a class="nav-link " href="../index.html"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                      </li>
+                    <li class="nav-item main-board">
+                        <a class="nav-link" href="../pages/profile.html"><i class="fa-solid fa-gear"></i></a>
+                      </li>
+                      <li class="nav-item main-board">
+                        <a class="nav-link" href="../pages/notifications.html"> <i class="fa-regular fa-bell"></i></a> 
+                      </li>
+                      <li class="nav-item main-board">
+                        <a class="nav-link" href="../pages/chat support.html"><i class="fa-solid fa-headset"></i></a> 
+                      </li>
+                </ul>
+                <div class="navbar-logo navbar-logo-board d-flex align-items-center">
+                    <a href="../index.html"><img src="../img/logo.png" alt=""></a>
+                <div class=" navbar-toggle-board ml-4" id="navbarToggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                  </div>
+                </div>
+              </nav>
+    
+        </div>
+      </header>
+
+      
+     <div class="aside_bar">
+
+      <div class="menu-items">
+        <ul class="nav-links">
+          <li class="active"><a href="./Dashboard.html" class="active">
+            <span class="link-name Dahsboard active ">الرئسيه</span>
+            <i class="fa-solid fa-house"></i>
+        </a></li>
+            <li class="active"><a href="./profile.html" class="active">
+                <span class="link-name Dahsboard active ">حسابي</span>
+                <i class="fa-solid fa-user"></i>
+            </a></li>
+            <li><a href="./Subscriptions.html">
+                <span class="link-name ContentLi">الاشتراكات</span>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a></li>
+            <li><a href="./order.html">
+              <span class="link-name ContentLi">الطلبات</span>
+              <i class="fa-solid fa-info mr-2"></i>
+          </a></li>
+            <li><a href="./chat support.html">
+                <span class="link-name Analytics">الدعم الفني</span>
+                <i class="fa-solid fa-headset"></i>
+            </a></li>
+        </ul>
+        <ul class="logout-mode nav-links">
+          <li><a href="../index.html">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            <span class="link-name">تسجيل خروج</span>
+        </a></li>
+        </ul>
+    </div>
+     </div>
+     
+<!-- profile -->
+<div class="profile">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 ">
+        <div class="logo-profile"> 
+          <div class="avatar-upload">
+            <div class="avatar-edit">
+                <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                <label for="imageUpload"></label>
+            </div>
+            <div class="avatar-preview">
+                <div id="imagePreview">
+                  <img id="imgProfile" src="" style="width: 130px; margin-top: 1px;" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+        <h1 class="text-center ">حسابي</h1>
+      </div>
+      <div class="col-lg-12 mt-4">
+        <form>
+          <div class="form-row text-right">
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">البريد الاكتروني </label>
+              <input type="email" class="form-control" required id="inputemail4" placeholder="www.khaled@gmail.com">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">اسم الشركة</label>
+              <input type="text" class="form-control" required id="inputname4" placeholder=" التميز">
+            </div>
+          </div>
+          <div class="form-row text-right">
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">رقم جوال المسؤل </label>
+                <input type="text" class="form-control" required id="inputphone5" placeholder="01090898650">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">اسم المسؤل </label>
+                <input type="text" class="form-control" required id="inputname5" placeholder="خالد">
+              </div>
+            </div>
+            <div class="form-row text-right">
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">رقم السجل التجاري </label>
+                <input type="text"required class="form-control" id="inputphone4" placeholder="676278515655">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4"> الرقم الضريبي</label>
+                <input type="text"required class="form-control" id="inputnumber5" placeholder="6985855447125742 ">
+              </div>
+            </div>
+          <div class="form-row text-right">
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">رقم الجوال</label>
+                <input type="text"required class="form-control" id="inputphone4" placeholder=" 01090292974 ">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">كلمة المرور </label>
+                <input type="password" required class="form-control" id="inputpass4" placeholder="khaled845 ">
+              </div>
+            </div>
+
+          <div class="form-row text-right">
+              <div class="form-group col-md-6">
+                  <label for="inputCity">المدينة</label>
+                  <input type="text" required class="form-control" id="inputCity" placeholder="الرياض">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputAddress">العنوان</label>
+                  <input type="text" required class="form-control" id="inputAddress" placeholder=" السعوديه الرياض ">
+                </div>
+          </div>
+          <div class="form-row text-right d-flex justify-content-end  mr-5">
+            <a class="download_attachment" href="myfile.pdf" download="file">PDF تحميل المرفقات</a>
+        </div>
+  </div>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      <div class="footer">
+        <div class="bg-light py-4">
+            <div class="container text-center">
+              <p class="text-muted mb-0 py-2">© جميع الحقوق محفوظه لشركه  الصفقة الذكية للتجارة</p>
+            </div>
+          </div>
+      </div>
+    <!-- js file -->
+    <script src="../js/main.js"></script>
+    <!-- img profile -->
+    <script src="../js/uoloadImgProfile.js"></script>
+    <!-- jquery file -->
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+     <!-- bootstrap file -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

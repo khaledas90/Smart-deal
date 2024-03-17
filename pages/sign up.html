@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <!-- css style -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+       <!-- font icon -->
+       <link rel="stylesheet" href="../css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- google font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;800&family=Pacifico&family=Rubik:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+<!-- icon -->
+<link rel="shortcut icon" href="../img/logo.png" />
+</head>
+<body>
+ <!-- header -->
+    <header class="header">
+        <div class="header-container">
+            <nav class="navbar">
+               
+                <ul class="navbar-links" id="navbarLinks">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sign in.html"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sign up.html"> <i class="fa-solid fa-user-plus"></i> </a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./privacy policy.html">سياسه الخصوصيه </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./callus.html">اتصل بنا</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Using Laws.html">قوانين الاستخدام</a>
+                      </li>
+                </ul>
+                <div class="navbar-toggle" id="navbarToggle">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+                <div class="navbar-logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></div>
+              </nav>
+    
+        </div>
+      </header>
+
+      <!-- sign up -->
+      <div class="form-sign sign-up text-end ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="icon text-center mt-5">
+                        <i class="fa-solid fa-user-plus"></i>
+                       <h4 class="mt-2">   انشاء حساب جديد</h4>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <form>
+                        <div class="form-row text-right">
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">البريد الاكتروني </label>
+                            <input type="email" class="form-control" required id="inputemail4" placeholder="البريد الالكتروني">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">اسم الشركة</label>
+                            <input type="text" class="form-control" required id="inputname4" placeholder="اسم الشركة">
+                          </div>
+                        </div>
+                        <div class="form-row text-right">
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">رقم جوال المسؤل </label>
+                              <input type="text" class="form-control" required id="inputphone5" placeholder="رقم جوال المسؤل">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">اسم المسؤل </label>
+                              <input type="text" class="form-control" required id="inputname5" placeholder="اسم المسؤل">
+                            </div>
+                          </div>
+                          <div class="form-row text-right">
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">رقم السجل التجاري </label>
+                              <input type="text"required class="form-control" id="inputphone4" placeholder="الرقم التجاري">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4"> الرقم الضريبي</label>
+                              <input type="text"required class="form-control" id="inputnumber5" placeholder="الرقم الضريبي">
+                            </div>
+                          </div>
+                        <div class="form-row text-right">
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">رقم الجوال</label>
+                              <input type="text"required class="form-control" id="inputphone4" placeholder="رقم الجوال ">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">كلمة المرور </label>
+                              <input type="password" required class="form-control" id="inputpass4" placeholder="كلمة المرور">
+                            </div>
+                          </div>
+
+                        <div class="form-row text-right">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">المدينة</label>
+                                <input type="text" required class="form-control" id="inputCity" placeholder="المدينة">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputAddress">العنوان</label>
+                                <input type="text" required class="form-control" id="inputAddress" placeholder=" العنوان ">
+                              </div>
+                        </div>
+                        <div class="form-row text-right d-flex justify-content-end  align-items-end">
+                            <div class="form-group upload mt-3 col-lg- ">
+                                <input type="file" class="form-control" id="customFile" />
+                                <input type="file" id="file-input" multiple />
+                                  <label for="file-input">
+                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                    &nbsp;  ارفاق المستندات الرسمية<br> (صورة السجل والتراخيص)
+                                  </label>
+                                  <div id="num-of-files"> </div>
+                                  <ul id="files-list"></ul>
+                            </div>
+                        </div>
+                        <div class="form-group text-right mr-2">
+                          <div class="form-check text-aline-right mr-3">
+                            <label class="form-check-label " for="gridCheck">
+                              أوافق علي <a href="./Using Laws.html">الشروط و الاحكام</a>
+                            </label>
+                            <input class="form-check-input ml-2"required type="checkbox" id="gridCheck">
+                          </div>
+                          <div class="form-check mr-3">
+                            <label class="form-check-label check-sing-up" for="gridCheck">
+                              لايمكنك التعديل في بياناتك بعد التسجل  - هل انت متأكد من صحه بياناتك؟
+                            </label>
+                            <input class="form-check-input ml-2"required type="checkbox" id="gridCheck">
+                          </div>
+                        </div>
+                        <div class="btn global-btn btn-home-signUp ">
+                            <button type="submit" class="upload_data"><a href="../pages/Dashboard.html">سجل الان</a></button> 
+                        </div>
+                </div>
+            </form>
+            </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="bg-light py-4">
+            <div class="container text-center">
+              <p class="text-muted mb-0 py-2">© جميع الحقوق محفوظه لشركه الصفقة الذكية للتجارة</p>
+            </div>
+          </div>
+      </div>
+    <!-- js file -->
+    <script src="../js/main.js"></script>
+    <!-- jquery file -->
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+     <!-- bootstrap file -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

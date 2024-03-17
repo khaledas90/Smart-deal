@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new order</title>
+    <!-- css style -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- datatable -->
+ <link rel="stylesheet" href="../css/datatables.min.css">
+       <!-- font icon -->
+       <link rel="stylesheet" href="../css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- google font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;800&family=Pacifico&family=Rubik:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+ 
+<!-- icon -->
+<link rel="shortcut icon" href="../img/logo.png" />
+</head>
+<body>
+ <!-- header -->
+    <header class="header">
+        <div class="header-container">
+            <nav class="navbar nav-board">
+               
+                <ul class="navbar-links" id="navbarLinks">
+                    <li class="nav-item main-board">
+                        <a class="nav-link " href="../index.html"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                      </li>
+                    <li class="nav-item main-board">
+                        <a class="nav-link" href="./profile.html"><i class="fa-solid fa-gear"></i></a>
+                      </li>
+                      <li class="nav-item main-board">
+                        <a class="nav-link" href="./notifications.html"> <i class="fa-regular fa-bell"></i></a> 
+                      </li>
+                      <li class="nav-item main-board">
+                        <a class="nav-link" href="./chat support.html"><i class="fa-solid fa-headset"></i></a> 
+                      </li>
+                </ul>
+                <div class="navbar-logo navbar-logo-board d-flex align-items-center">
+                    <a href="../index.html"><img src="../img/logo.png" alt=""></a>
+                <div class=" navbar-toggle-board ml-4" id="navbarToggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                  </div>
+                </div>
+              </nav>
+    
+        </div>
+      </header>
+
+      
+     <div class="aside_bar">
+
+      <div class="menu-items">
+        <ul class="nav-links">
+          <li class="active"><a href="./Dashboard.html" class="active">
+            <span class="link-name Dahsboard active ">الرئسيه</span>
+            <i class="fa-solid fa-house"></i>
+        </a></li>
+            <li class="active"><a href="./profile.html" class="active">
+                <span class="link-name Dahsboard active ">حسابي</span>
+                <i class="fa-solid fa-user"></i>
+            </a></li>
+            <li><a href="./Subscriptions.html">
+                <span class="link-name ContentLi">الاشتراكات</span>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a></li>
+            <li><a href="./order.html">
+              <span class="link-name ContentLi">الطلبات</span>
+              <i class="fa-solid fa-info mr-2"></i>
+          </a></li>
+          <li><a href="./notifications.html">
+            <span class="link-name ContentLi">التنبيهات</span>
+             <i class="fa-regular fa-bell"></i>
+        </a></li>
+            <li><a href="./chat support.html">
+                <span class="link-name Analytics">الدعم الفني</span>
+                <i class="fa-solid fa-headset"></i>
+            </a></li>
+        </ul>
+        <ul class="logout-mode nav-links">
+          <li><a href="../index.html">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            <span class="link-name">تسجيل خروج</span>
+        </a></li>
+        </ul>
+    </div>
+     </div>
+     <div class="newOrder">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">تفاصيل الطلب</h1>
+          </div>
+          <div class="col-lg-12">
+           <div class="table-head-responsive responsive mt-3 no-wrap">
+            <table class="mt-4 mb-4 ml-5 d-flex justify-content-center text-center headTableOrder ">
+              <tr>
+                <th class="c2 bg-light ">شركه الصفقه التجاريه</th>
+                <th class="c1 bg-secondary text-white">اسم الشركه</th>
+                <th class="c4 bg-light">احمد خالد اسماعيل</th>
+                <th class="c3 bg-secondary  text-white">اسم المسؤل</th>
+              </tr>
+              <tr>
+                <td class="c2 bg-light">446682655555</td>
+                <td class="c1 bg-secondary  text-white">رقم السجل التجاري</td>
+                <td class="c4 bg-light">01090898550</td>
+                <td class="c3 bg-secondary  text-white">رقم جوال المسؤل</td>
+              </tr>
+              <tr>
+                <td class="c2 bg-light">785236419</td>
+                <td class="c1 bg-secondary  text-white">الرقم الضريبي</td>
+                <td class="c4 bg-light">السعوديه - الرياض</td>
+                <td class="c3 bg-secondary  text-white">العنوان</td>
+              </tr>
+            </table>
+           </div>
+          </div>
+          <div class="col-lg-12">
+            <form class="form">
+              <div class="form-row">
+                <div class="form-group col-lg-6 text-right">
+                  <label for="DatePlan">تاريخ العملية</label>
+                  <input type="date" class="form-control" required id="DatePlan" value="2000-03-31">
+                </div>
+                <div class="form-group text-right col-lg-6">
+                  <label for="inputEmail4">عنوان الطلب</label>
+                  <input type="text" class="form-control" required id="orderName" placeholder="عنوان الطلب" value="iraq">
+                </div>
+              </div>
+              <div class="form-row text-right">
+                <div class="form-group text-right d-inline-block col-lg-6">
+                  <label for="companyNameSelect">الشركه المصنعه</label>
+                  <select id="companyNameSelect" class="form-control">
+                    <option selected>مرسيدس</option>
+                    <option>تويوتا</option>
+                    <option>بي ام دابيو</option>
+                  </select>
+                </div>
+                <div class="form-group text-right col-lg-6">
+                  <label for="inputEmail4">رقم الصنف</label>
+                  <input type="number" class="form-control" required id="companyNameTwo" placeholder="رقم الصنف" value="5">
+                </div>
+  
+              </div>
+              <div class="form-row text-right">
+                <div class="form-group text-right col-lg-6">
+                  <label for="modelName">الموديل</label>
+                  <select id="modelName" class="form-control">
+                    <option selected>مرسيدس</option>
+                    <option>تويوتا</option>
+                    <option>بي ام دابيو</option>
+                  </select>
+                </div>
+                <div class="form-group text-right col-lg-6">
+                  <label for="numberYear"> سنه التصنيع</label>
+                  <select id="numberYear" class="form-control">
+                    <option selected>2000</option>
+                    <option>2005</option>
+                    <option> 2015 </option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row text-right">
+                <div class="form-group text-right col-lg-4">
+                  <label for="stateCar"> الحاله</label>
+                  <select id="stateCar" class="form-control">
+                    <option selected>جديد</option>
+                    <option>مستعمل</option>
+                  </select>
+                </div>
+                <div class="form-group text-right col-lg-4">
+                  <label for="inputPrice">السعر</label>
+                  <input type="number" class="form-control" required id="inputPrice" placeholder="السعر" value="10000">
+                </div>
+                <div class="form-group text-right col-lg-4">
+                  <label for="inputPrice">الكميه</label>
+                  <input type="number" class="form-control" required id="inputqunty" placeholder="الكميه" value="2">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="btn global-btn btn-addRowOrder col-lg-12 mt-5 mb-5 ">
+                  <button type="button" onclick="saveOrderData()">
+                    اضافه
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-12">
+           <div class="table-body-responsive responsive mt-3 no-wrap">
+            <table class="responstable text-center endtableorder">
+              <tr>
+                <th class="text-center bg-secondary">السعر</th>
+                <th class="text-center bg-light">الكميه</th>
+                <th class="text-center bg-secondary">الحاله</th>
+                <th class="text-center  bg-light">سنه التصنيع</th>
+                <th class="text-center bg-secondary">الموديل</th>
+                <th class="text-center bg-light">الشركة المصنعه</th>
+                <th class="text-center bg-secondary ">رقم الصنف</th>
+              </tr>
+              <tbody  class="text-center" id="data-table-body">
+              </tbody>
+            </table>
+           </div>
+          </div>
+          <div class="form-group text-right m-3 ">
+            <label for="exampleFormControlTextarea1 text-right">الملاحظات</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" dir="rtl" rows="5" cols="150"></textarea>
+          </div>
+        </div>
+        <div class="col-lg-8 group-btn-order">
+          <div class="btn global-btn btn-finalOrder col-lg-12 col-md-12  mt-5 mb-5 ">
+            <button type="button" onclick="sendRequest()">
+              ارسال الطلب
+            </button>
+            <button type="button" class="printOrder mt-2" onclick="printOrder()">طباعة الطلب</button>
+          </div>
+        </div>
+        <div class="footer ">
+          <div class="bg-light py-4">
+            <div class=" text-center">
+              <p class="text-muted mb-0 py-2">© جميع الحقوق محفوظه لشركه الصفقة الذكية للتجارة</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- js file -->
+    <script src="../js/main.js"></script>
+    <script src="../js/new order.js"></script>
+    <script src="../js/ToDoList order.js"></script>
+    <!-- datatable -->
+    <script src="../js/datatables.min.js"></script>
+    <!-- jquery file -->
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+     <!-- bootstrap file -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
